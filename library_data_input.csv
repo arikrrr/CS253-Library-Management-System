@@ -1,0 +1,26 @@
+[Books]
+B1001,The Great Gatsby,F. Scott Fitzgerald,Scribner,1925,9780743273565,AVAILABLE
+B1002,To Kill a Mockingbird,Harper Lee,J.B. Lippincott & Co.,1960,9780061120084,AVAILABLE
+B1003,1984,George Orwell,Secker & Warburg,1949,9780451524935,AVAILABLE
+B1004,Pride and Prejudice,Jane Austen,T. Egerton Whitehall,1813,9780141439518,AVAILABLE
+B1005,The Catcher in the Rye,J.D. Salinger,Little Brown and Company,1951,9780316769488,AVAILABLE
+B1006,The Hobbit,J.R.R. Tolkien,George Allen & Unwin,1937,9780547928227,AVAILABLE
+B1007,Fahrenheit 451,Ray Bradbury,Ballantine Books,1953,9781451673319,AVAILABLE
+B1008,Moby-Dick,Herman Melville,Harper & Brothers,1851,9781503280786,AVAILABLE
+B1009,War and Peace,Leo Tolstoy,The Russian Messenger,1869,9781400079988,AVAILABLE
+B1010,The Odyssey,Homer,Various,-800,9780140268867,AVAILABLE
+
+[Users]
+S1,Alice,pass,Student
+S2002,Bob,student2pass,Student
+S2003,Charlie,student3pass,Student
+S2004,David,student4pass,Student
+S2005,Eve,student5pass,Student
+F1001,Dr. Smith,faculty1pass,Faculty
+F1002,Dr. Johnson,faculty2pass,Faculty
+F1003,Dr. Williams,faculty3pass,Faculty
+L1,Arihant,abcxyz,Librarian
+
+[CurrentBookings]
+
+[HistoryBookings]
