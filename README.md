@@ -24,9 +24,9 @@ This is a C++ program that simulates a Library Management System (LMS) using Obj
 
 1. **Compile the Program**:
    - Ensure you have a C++ compiler installed (e.g., `g++`).
-   - Compile the program using the following command:
+   - Compile the code using the following command:
      ```bash
-     g++ -o lms main.cpp
+     g++ -o lms lms.cpp
      ```
    - This will generate an executable file named `lms`.
 
@@ -118,7 +118,22 @@ When the program starts, you will see the following options:
 
 ## Notes
 
-- Ensure that the input file (`library_data_input.csv`) is formatted correctly. The program expects specific columns for books, users, and borrowing records.
+- Ensure that the input file (`library_data_input.csv`) is formatted correctly. The program expects specific columns for books, users, and borrowing records. You can take a look at the `library_data_input.csv` to get the idea of how csv file is getting saved.
+```
+[Books]
+B1001,The Great Gatsby,F. Scott Fitzgerald,Scribner,1925,9780743273565,AVAILABLE
+B1002,To Kill a Mockingbird,Harper Lee,J.B. Lippincott & Co.,1960,9780061120084,AVAILABLE
+[Users]
+S1,Alice,pass,Student
+F1,Dr. Smith,faculty1pass,Faculty
+L1,Arihant,abcxyz,Librarian
+[CurrentBookings]
+S1,B1001,0UEG3BRMZM,09-03-2025,xxxxxxxx,INSTANT,0
+[HistoryBookings]
+S1,B1002,OKJH7897HG,09-03-2025,15-03-2025,INSTANT,0
+```
 - The program uses random IDs for books and users. These IDs are generated randomly when new books or users are added.
+
 - The program calculates fines for overdue books based on the number of days overdue (10 rupees per day for students, no fines for faculty).
+
 - You may change the name of output file in the code to (`library_data_input.csv`) if you want to overwrite in the input data file.
